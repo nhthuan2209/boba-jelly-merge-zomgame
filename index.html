@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boba &amp; Jelly Merge! — Zom Game (Free Android Download)</title>
+  <meta name="description" content="Download Boba &amp; Jelly Merge! v1.1.0 APK by Zom Game. 100% Free, Ad-Free, Offline Kawaii Milk Tea Merge Puzzle Game for Android 8.0+." />
+  <link rel="icon" type="image/png" href="assets/icon_512.png" />
+  <style>
+    :root {
+      --bg: #fff5ec;
+      --card: #ffffff;
+      --cocoa: #4a2c2a;
+      --muted: #7b564e;
+      --pink: #ec487c;
+      --pink-dark: #c7265b;
+      --peach: #ffd6c9;
+      --mint: #dff7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #ffe7ef 0%, var(--bg) 45%, #fffdf9 100%);
+      color: var(--cocoa);
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 16px 56px;
+    }
+    .hero-card {
+      background: var(--card);
+      border: 3px solid var(--cocoa);
+      border-radius: 28px;
+      box-shadow: 0 14px 32px rgba(74, 44, 42, 0.14);
+      overflow: hidden;
+    }
+    .hero-banner {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-bottom: 3px solid var(--cocoa);
+    }
+    .hero-body {
+      padding: 26px 28px 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .app-id {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      flex: 1 1 360px;
+    }
+    .app-icon {
+      width: 88px;
+      height: 88px;
+      border-radius: 22px;
+      border: 3px solid var(--cocoa);
+      box-shadow: 0 6px 14px rgba(74, 44, 42, 0.16);
+      flex-shrink: 0;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 1.85rem;
+      line-height: 1.2;
+    }
+    .pub {
+      margin: 0 0 10px;
+      color: var(--pink);
+      font-weight: 800;
+      font-size: 1rem;
+    }
+    .badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 11px;
+      border-radius: 999px;
+      border: 2px solid var(--cocoa);
+      background: #fff7ef;
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+    .badge.free {
+      background: var(--mint);
+    }
+    .cta-box {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 0 1 290px;
+      width: 100%;
+    }
+    .btn-download {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: linear-gradient(180deg, #ff70a0 0%, var(--pink) 55%, var(--pink-dark) 100%);
+      color: #fff;
+      font-weight: 800;
+      font-size: 1.08rem;
+      padding: 15px 22px;
+      border-radius: 999px;
+      border: 3px solid var(--cocoa);
+      box-shadow: 0 6px 0 var(--cocoa);
+      transition: transform 0.12s ease;
+    }
+    .btn-download:hover {
+      transform: translateY(-2px);
+    }
+    .btn-download:active {
+      transform: translateY(3px);
+    }
+    .cta-note {
+      text-align: center;
+      font-size: 0.84rem;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .section {
+      margin-top: 26px;
+      background: var(--card);
+      border: 3px solid var(--cocoa);
+      border-radius: 24px;
+      padding: 24px 26px;
+      box-shadow: 0 10px 24px rgba(74, 44, 42, 0.08);
+    }
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.32rem;
+      color: var(--pink-dark);
+    }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 16px;
+    }
+    .feature-box {
+      background: #fffaf4;
+      border: 2px solid #e7cabf;
+      border-radius: 16px;
+      padding: 15px 17px;
+    }
+    .feature-box h3 {
+      margin: 0 0 6px;
+      font-size: 1.03rem;
+    }
+    .feature-box p {
+      margin: 0;
+      font-size: 0.94rem;
+      color: var(--muted);
+    }
+    .shots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+      gap: 14px;
+    }
+    .shots img {
+      width: 100%;
+      height: auto;
+      border-radius: 18px;
+      border: 3px solid var(--cocoa);
+      box-shadow: 0 8px 18px rgba(74, 44, 42, 0.12);
+      display: block;
+    }
+    ol {
+      padding-left: 20px;
+      margin: 8px 0 0;
+    }
+    li { margin-bottom: 8px; }
+    footer {
+      text-align: center;
+      margin-top: 28px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--pink-dark);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero-card">
+      <img class="hero-banner" src="assets/banner_1024x500.png" alt="Boba &amp; Jelly Merge! by Zom Game Banner" />
+      <div class="hero-body">
+        <div class="app-id">
+          <img class="app-icon" src="assets/icon_512.png" alt="Boba &amp; Jelly Merge! App Icon" />
+          <div>
+            <h1>Boba &amp; Jelly Merge!</h1>
+            <p class="pub">Published by Zom Game · Package: <code>com.zomgame.bobajellymerge</code></p>
+            <div class="badges">
+              <span class="badge free">100% Free &amp; Ad-Free</span>
+              <span class="badge">v1.1.0 (Android 8.0+)</span>
+              <span class="badge">Offline Puzzle</span>
+              <span class="badge">EN / Tiếng Việt</span>
+            </div>
+          </div>
+        </div>
+        <div class="cta-box">
+          <a class="btn-download" href="https://github.com/nhthuan2209/boba-jelly-merge-zomgame/releases/download/v1.1.0/BobaJellyMerge_ZomGame_v1.1.0_Release.apk">
+            ⬇ Download APK (Android)
+          </a>
+          <div class="cta-note">Signed Release APK · v1.1.0 · ~58.2 MB</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🧋 Giới thiệu / About the Game</h2>
+      <div class="grid-2">
+        <div class="feature-box">
+          <h3>✨ Ghép Topping Trà Sữa Siêu Dễ Thương</h3>
+          <p>Thả và ghép từ Trân châu đen, Trân châu đường nâu, Dâu tây, Thạch hồng, Mochi gấu, Matcha, Bánh flan cho tới Ly trà sữa khổng lồ trong hũ thủy tinh vật lý nảy mượt mà.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🎨 10 Thế Giới Kawaii &amp; 3 Vật Phẩm Hỗ Trợ</h3>
+          <p>Mở khóa 10 chủ đề từ Milk Tea Cafe tới Galaxy Candy bằng điểm kỷ lục. Dùng Lắc hũ (Shake), Búa đập (Hammer), Đổi món (Swap) và Hồi sinh hoàn toàn miễn phí — không quảng cáo, không nạp tiền.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🏆 Bảng Xếp Hạng &amp; Song Ngữ Anh / Việt</h3>
+          <p>Đặt biệt danh độc nhất, đổi tên trong Bảng xếp hạng và chuyển đổi tức thì giữa Tiếng Việt &amp; Tiếng Anh ngay trong phần Cài đặt.</p>
+        </div>
+        <div class="feature-box">
+          <h3>🔒 Riêng Tư &amp; An Toàn Tuyệt Đối</h3>
+          <p>Chơi hoàn toàn ngoại tuyến. Không thu thập dữ liệu cá nhân, không SDK quảng cáo, ký số chính thức bởi <strong>Zom Game</strong>.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📱 Ảnh Màn Hình / Screenshots</h2>
+      <div class="shots">
+        <img src="assets/screen_01.png" alt="Main Menu 3D Hero Cup (English)" />
+        <img src="assets/screen_02.png" alt="Main Menu Sakura Theme (Tiếng Việt)" />
+        <img src="assets/screen_03.png" alt="10 Kawaii Themes Gallery" />
+        <img src="assets/screen_04.png" alt="Ranking &amp; Rename Board" />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📲 Hướng Dẫn Cài Đặt / How to Install APK</h2>
+      <ol>
+        <li>Nhấn nút <strong>Download APK (Android)</strong> ở trên để tải tệp <code>BobaJellyMerge_ZomGame_v1.1.0_Release.apk</code> về điện thoại Android hoặc trình giả lập (LDPlayer / BlueStacks).</li>
+        <li>Mở tệp APK vừa tải. Nếu Android hỏi quyền cài từ nguồn này, chọn <strong>Cài đặt → Cho phép từ nguồn này (Allow from this source)</strong>.</li>
+        <li>Nhấn <strong>Cài đặt (Install)</strong> và mở game để thưởng thức ngay!</li>
+      </ol>
+    </div>
+
+    <footer>
+      © 2026 <strong>Zom Game</strong> ·
+      <a href="https://nhthuan2209.github.io/zomgame-privacy/">Privacy Policy / Chính Sách Bảo Mật</a> ·
+      <a href="https://github.com/nhthuan2209/boba-jelly-merge-zomgame/releases">All Releases</a>
+    </footer>
+  </div>
+</body>
+</html>
